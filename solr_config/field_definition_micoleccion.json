@@ -1,0 +1,16 @@
+{
+    "add-field" : {
+        "name" : "document_id",
+        "type" : "plong",
+        "stored" : true,
+        "indexed" : true,
+        "required" : true
+    },
+    "add-field" : {
+        "name" : "content",
+        "type" : "text_en",
+        "stored" : true,
+        "indexed" : true,
+        "required" : true
+    }
+}
